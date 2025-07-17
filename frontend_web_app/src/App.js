@@ -18,6 +18,10 @@ function App() {
 
   return (
     <div className="App">
+      <nav className="navbar">
+        <a href="/">Red Navbar</a>
+        {/* You can add more links here as needed */}
+      </nav>
       <header className="App-header">
         <button 
           className="theme-toggle" 

@@ -102,3 +102,30 @@
     font-size: 12px;
   }
 }
+
+/* Navbar Styles */
+.navbar {
+  background: #d32f2f; /* Material-ish vivid red */
+  color: #ffffff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  border-bottom: 2px solid #b71c1c;
+  box-shadow: 0 2px 8px rgba(211, 47, 47, 0.06);
+  width: 100%;
+}
+.navbar a,
+.navbar a:visited {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 1.5rem;
+  transition: color 0.2s;
+}
+.navbar a:hover,
+.navbar a:focus {
+  color: #ffd1d1;
+}
